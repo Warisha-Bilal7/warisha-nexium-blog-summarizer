@@ -1,0 +1,12 @@
+{
+  "functions": {
+    "src/app/api/summarize/route.js": {
+      "maxDuration": 30
+    }
+  },
+  "env": {
+    "OPENAI_API_KEY": "@openai_api_key",
+    "MONGODB_URI": "@mongodb_uri",
+    "MONGODB_DB_NAME": "@mongodb_db_name"
+  }
+}

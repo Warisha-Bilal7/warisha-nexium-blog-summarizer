@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Base typography & smooth rendering */
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply bg-white text-gray-900 antialiased;
+  }
+}
+
+/* Example custom utilities if needed */
+@layer components {
+  .btn-primary {
+    @apply bg-indigo-600 text-white px-4 py-2 rounded-md shadow hover:bg-indigo-700 transition;
+  }
+
+  .input-field {
+    @apply w-full p-2 border border-gray-300 rounded focus:outline-none focus:ring focus:border-blue-400;
+  }
+}
